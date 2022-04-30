@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
+// App ran on Pixel 2 API 29
+
+
 class cardView (private val listStates: ArrayList<states>): RecyclerView.Adapter<cardView.CardViewViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewViewHolder{
